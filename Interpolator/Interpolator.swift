@@ -6,7 +6,7 @@
 //  Copyright © 2019 Jakub Olejnik. All rights reserved.
 //
 
-import Foundation
+import CoreGraphics
 
 public protocol Interpolator {
     func interpolation(for input: CGFloat) -> CGFloat

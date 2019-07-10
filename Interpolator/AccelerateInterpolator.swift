@@ -6,7 +6,7 @@
 //  Copyright © 2019 Jakub Olejnik. All rights reserved.
 //
 
-import Foundation
+import CoreGraphics
 
 public struct AccelerateInterpolator: Interpolator {
     private let factor: CGFloat

@@ -19,6 +19,8 @@ public struct AccelerateInterpolator: Interpolator {
         self.doubleFactor = factor * 2
     }
     
+    // MARK: - Public interface
+    
     public func interpolation(for input: CGFloat) -> CGFloat {
         if factor == 1 {
             return input * input

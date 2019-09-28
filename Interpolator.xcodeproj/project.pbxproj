@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		69417661234021A00076A4A8 /* ColorInterpolator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69417660234021A00076A4A8 /* ColorInterpolator.swift */; };
 		69D7C1C122D5F778001A79F3 /* Interpolator.h in Headers */ = {isa = PBXBuildFile; fileRef = 69D7C1BF22D5F778001A79F3 /* Interpolator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		69D7C1C922D5F7F1001A79F3 /* DecelerateInterpolator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D7C1C822D5F7F1001A79F3 /* DecelerateInterpolator.swift */; };
 		69D7C1CB22D5F938001A79F3 /* AccelerateInterpolator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D7C1CA22D5F938001A79F3 /* AccelerateInterpolator.swift */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		69417660234021A00076A4A8 /* ColorInterpolator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorInterpolator.swift; sourceTree = "<group>"; };
 		69D7C1BC22D5F778001A79F3 /* Interpolator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Interpolator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		69D7C1BF22D5F778001A79F3 /* Interpolator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Interpolator.h; sourceTree = "<group>"; };
 		69D7C1C022D5F778001A79F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -53,9 +55,10 @@
 			isa = PBXGroup;
 			children = (
 				69D7C1CA22D5F938001A79F3 /* AccelerateInterpolator.swift */,
+				69417660234021A00076A4A8 /* ColorInterpolator.swift */,
 				69D7C1C822D5F7F1001A79F3 /* DecelerateInterpolator.swift */,
-				69D7C1C722D5F7A5001A79F3 /* Supporting files */,
 				69D7C1CC22D5F974001A79F3 /* Interpolator.swift */,
+				69D7C1C722D5F7A5001A79F3 /* Supporting files */,
 			);
 			path = Interpolator;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69417661234021A00076A4A8 /* ColorInterpolator.swift in Sources */,
 				69D7C1CD22D5F974001A79F3 /* Interpolator.swift in Sources */,
 				69D7C1C922D5F7F1001A79F3 /* DecelerateInterpolator.swift in Sources */,
 				69D7C1CB22D5F938001A79F3 /* AccelerateInterpolator.swift in Sources */,

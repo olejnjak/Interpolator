@@ -9,5 +9,8 @@
 import CoreGraphics
 
 public protocol Interpolator {
-    func interpolation(for input: CGFloat) -> CGFloat
+    associatedtype Input
+    associatedtype Output
+    
+    func interpolation(for input: Input) -> Output
 }

@@ -17,6 +17,8 @@ public struct DecelerateInterpolator: Interpolator {
         self.factor = factor
     }
     
+    // MARK: - Public interface
+    
     public func interpolation(for input: CGFloat) -> CGFloat {
         if factor == 1 {
             return (1.0 - (1.0 - input) * (1.0 - input))

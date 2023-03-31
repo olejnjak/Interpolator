@@ -7,21 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		69417661234021A00076A4A8 /* ColorInterpolator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69417660234021A00076A4A8 /* ColorInterpolator.swift */; };
-		69D7C1C122D5F778001A79F3 /* Interpolator.h in Headers */ = {isa = PBXBuildFile; fileRef = 69D7C1BF22D5F778001A79F3 /* Interpolator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		69D7C1C922D5F7F1001A79F3 /* DecelerateInterpolator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D7C1C822D5F7F1001A79F3 /* DecelerateInterpolator.swift */; };
-		69D7C1CB22D5F938001A79F3 /* AccelerateInterpolator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D7C1CA22D5F938001A79F3 /* AccelerateInterpolator.swift */; };
-		69D7C1CD22D5F974001A79F3 /* Interpolator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D7C1CC22D5F974001A79F3 /* Interpolator.swift */; };
+		69EE067129D6C1F500F82BC3 /* ColorInterpolator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69EE066C29D6C1F500F82BC3 /* ColorInterpolator.swift */; };
+		69EE067229D6C1F500F82BC3 /* Interpolator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69EE066D29D6C1F500F82BC3 /* Interpolator.swift */; };
+		69EE067329D6C1F500F82BC3 /* Interpolator.h in Headers */ = {isa = PBXBuildFile; fileRef = 69EE066E29D6C1F500F82BC3 /* Interpolator.h */; };
+		69EE067429D6C1F500F82BC3 /* DecelerateInterpolator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69EE066F29D6C1F500F82BC3 /* DecelerateInterpolator.swift */; };
+		69EE067529D6C1F500F82BC3 /* AccelerateInterpolator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69EE067029D6C1F500F82BC3 /* AccelerateInterpolator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		69417660234021A00076A4A8 /* ColorInterpolator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorInterpolator.swift; sourceTree = "<group>"; };
 		69D7C1BC22D5F778001A79F3 /* Interpolator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Interpolator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		69D7C1BF22D5F778001A79F3 /* Interpolator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Interpolator.h; sourceTree = "<group>"; };
-		69D7C1C022D5F778001A79F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		69D7C1C822D5F7F1001A79F3 /* DecelerateInterpolator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecelerateInterpolator.swift; sourceTree = "<group>"; };
-		69D7C1CA22D5F938001A79F3 /* AccelerateInterpolator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccelerateInterpolator.swift; sourceTree = "<group>"; };
-		69D7C1CC22D5F974001A79F3 /* Interpolator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interpolator.swift; sourceTree = "<group>"; };
+		69EE066C29D6C1F500F82BC3 /* ColorInterpolator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorInterpolator.swift; sourceTree = "<group>"; };
+		69EE066D29D6C1F500F82BC3 /* Interpolator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Interpolator.swift; sourceTree = "<group>"; };
+		69EE066E29D6C1F500F82BC3 /* Interpolator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Interpolator.h; sourceTree = "<group>"; };
+		69EE066F29D6C1F500F82BC3 /* DecelerateInterpolator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DecelerateInterpolator.swift; sourceTree = "<group>"; };
+		69EE067029D6C1F500F82BC3 /* AccelerateInterpolator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccelerateInterpolator.swift; sourceTree = "<group>"; };
+		69EE067729D6C20500F82BC3 /* Interpolator.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Interpolator.plist; sourceTree = "<group>"; };
+		69EE067829D6C27300F82BC3 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		69EE067929D6C27300F82BC3 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		69EE067A29D6C27300F82BC3 /* Interpolator.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = Interpolator.podspec; sourceTree = "<group>"; };
+		69EE067B29D6C27300F82BC3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +42,12 @@
 		69D7C1B222D5F778001A79F3 = {
 			isa = PBXGroup;
 			children = (
-				69D7C1BE22D5F778001A79F3 /* Interpolator */,
+				69EE066B29D6C1F500F82BC3 /* Interpolator */,
+				69EE067629D6C20500F82BC3 /* Supporting files */,
+				69EE067A29D6C27300F82BC3 /* Interpolator.podspec */,
+				69EE067929D6C27300F82BC3 /* LICENSE */,
+				69EE067829D6C27300F82BC3 /* Package.swift */,
+				69EE067B29D6C27300F82BC3 /* README.md */,
 				69D7C1BD22D5F778001A79F3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,23 +60,23 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		69D7C1BE22D5F778001A79F3 /* Interpolator */ = {
+		69EE066B29D6C1F500F82BC3 /* Interpolator */ = {
 			isa = PBXGroup;
 			children = (
-				69D7C1CA22D5F938001A79F3 /* AccelerateInterpolator.swift */,
-				69417660234021A00076A4A8 /* ColorInterpolator.swift */,
-				69D7C1C822D5F7F1001A79F3 /* DecelerateInterpolator.swift */,
-				69D7C1CC22D5F974001A79F3 /* Interpolator.swift */,
-				69D7C1C722D5F7A5001A79F3 /* Supporting files */,
+				69EE066C29D6C1F500F82BC3 /* ColorInterpolator.swift */,
+				69EE066D29D6C1F500F82BC3 /* Interpolator.swift */,
+				69EE066E29D6C1F500F82BC3 /* Interpolator.h */,
+				69EE066F29D6C1F500F82BC3 /* DecelerateInterpolator.swift */,
+				69EE067029D6C1F500F82BC3 /* AccelerateInterpolator.swift */,
 			);
-			path = Interpolator;
+			name = Interpolator;
+			path = Sources/Interpolator;
 			sourceTree = "<group>";
 		};
-		69D7C1C722D5F7A5001A79F3 /* Supporting files */ = {
+		69EE067629D6C20500F82BC3 /* Supporting files */ = {
 			isa = PBXGroup;
 			children = (
-				69D7C1BF22D5F778001A79F3 /* Interpolator.h */,
-				69D7C1C022D5F778001A79F3 /* Info.plist */,
+				69EE067729D6C20500F82BC3 /* Interpolator.plist */,
 			);
 			path = "Supporting files";
 			sourceTree = "<group>";
@@ -79,7 +88,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69D7C1C122D5F778001A79F3 /* Interpolator.h in Headers */,
+				69EE067329D6C1F500F82BC3 /* Interpolator.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,10 +160,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69417661234021A00076A4A8 /* ColorInterpolator.swift in Sources */,
-				69D7C1CD22D5F974001A79F3 /* Interpolator.swift in Sources */,
-				69D7C1C922D5F7F1001A79F3 /* DecelerateInterpolator.swift in Sources */,
-				69D7C1CB22D5F938001A79F3 /* AccelerateInterpolator.swift in Sources */,
+				69EE067229D6C1F500F82BC3 /* Interpolator.swift in Sources */,
+				69EE067129D6C1F500F82BC3 /* ColorInterpolator.swift in Sources */,
+				69EE067429D6C1F500F82BC3 /* DecelerateInterpolator.swift in Sources */,
+				69EE067529D6C1F500F82BC3 /* AccelerateInterpolator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +223,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/Supporting files/$(TARGET_NAME).plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -272,6 +282,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/Supporting files/$(TARGET_NAME).plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -294,7 +305,6 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "$(SRCROOT)/Interpolator/Supporting files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -323,7 +333,6 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "$(SRCROOT)/Interpolator/Supporting files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

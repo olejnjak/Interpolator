@@ -6,6 +6,7 @@
 //  Copyright © 2019 Jakub Olejnik. All rights reserved.
 //
 
+#if canImport(UIKit)
 import UIKit
 
 public extension UIColor {
@@ -52,3 +53,4 @@ public struct ColorInterpolator: Interpolator {
         }
     }
 }
+#endif

@@ -10,6 +10,6 @@ let package = Package(
         .library(name: "Interpolator", targets: ["Interpolator"]),
     ],
     targets: [
-        .target(name: "Interpolator", path: "Interpolator")
+        .target(name: "Interpolator")
     ]
 )

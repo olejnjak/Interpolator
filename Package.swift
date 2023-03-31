@@ -4,15 +4,12 @@ import PackageDescription
 let package = Package(
     name: "Interpolator",
     platforms: [
-        .iOS(.v8),
+        .iOS(.v9),
     ],
     products: [
         .library(name: "Interpolator", targets: ["Interpolator"]),
     ],
     targets: [
         .target(name: "Interpolator", path: "Interpolator")
-    ],
-    swiftLanguageVersions: [
-        .v5
     ]
 )

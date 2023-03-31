@@ -17,7 +17,7 @@ jobs:
     - uses: actions/checkout@v3.5.0
     - uses: AckeeCZ/load-xcode-version@1.1.0
     - name: SPM build
-      run: swift build
+      run: swift build -Xswiftc "-sdk" -Xswiftc "`xcrun --sdk iphonesimulator --show-sdk-path`" -Xswiftc "-target" -Xswiftc "x86_64-apple-ios16.2-simulator"
   carthage:
     runs-on: macos-12
     steps:

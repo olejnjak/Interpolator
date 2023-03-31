@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
     name: "Interpolator",
     platforms: [
-        .iOS(.v9),
+        .iOS(.v11),
     ],
     products: [
         .library(name: "Interpolator", targets: ["Interpolator"]),

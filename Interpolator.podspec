@@ -10,7 +10,6 @@ Pod::Spec.new do |s|
     s.author           = { 'Jakub Olejník' => 'olejnjak@gmail.com' }
     s.social_media_url = "https://twitter.com/olejnjak"
     s.source           = { :git => 'https://github.com/olejnjak/Interpolator.git', :tag => s.version.to_s }
-    s.ios.deployment_target = '9.0'
+    s.ios.deployment_target = '11.0'
     s.source_files     = 'Interpolator/*.swift'
-    s.swift_version    = '5.0'
 end

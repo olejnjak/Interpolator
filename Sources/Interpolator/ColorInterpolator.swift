@@ -1,11 +1,3 @@
-//
-//  ColorInterpolator.swift
-//  Interpolator
-//
-//  Created by Jakub Olejník on 29/09/2019.
-//  Copyright © 2019 Jakub Olejnik. All rights reserved.
-//
-
 #if canImport(UIKit)
 import UIKit
 
@@ -13,7 +5,7 @@ public extension UIColor {
     
 }
 
-public struct ColorInterpolator: Interpolator {
+public struct ColorInterpolator: InterpolatorType {
     private let start: UIColor
     private let end: UIColor
     

@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		69EE067129D6C1F500F82BC3 /* ColorInterpolator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69EE066C29D6C1F500F82BC3 /* ColorInterpolator.swift */; };
-		69EE067229D6C1F500F82BC3 /* Interpolator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69EE066D29D6C1F500F82BC3 /* Interpolator.swift */; };
+		69EE067229D6C1F500F82BC3 /* InterpolatorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69EE066D29D6C1F500F82BC3 /* InterpolatorType.swift */; };
 		69EE067329D6C1F500F82BC3 /* Interpolator.h in Headers */ = {isa = PBXBuildFile; fileRef = 69EE066E29D6C1F500F82BC3 /* Interpolator.h */; };
 		69EE067429D6C1F500F82BC3 /* DecelerateInterpolator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69EE066F29D6C1F500F82BC3 /* DecelerateInterpolator.swift */; };
 		69EE067529D6C1F500F82BC3 /* AccelerateInterpolator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69EE067029D6C1F500F82BC3 /* AccelerateInterpolator.swift */; };
@@ -17,7 +17,7 @@
 /* Begin PBXFileReference section */
 		69D7C1BC22D5F778001A79F3 /* Interpolator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Interpolator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		69EE066C29D6C1F500F82BC3 /* ColorInterpolator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorInterpolator.swift; sourceTree = "<group>"; };
-		69EE066D29D6C1F500F82BC3 /* Interpolator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Interpolator.swift; sourceTree = "<group>"; };
+		69EE066D29D6C1F500F82BC3 /* InterpolatorType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterpolatorType.swift; sourceTree = "<group>"; };
 		69EE066E29D6C1F500F82BC3 /* Interpolator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Interpolator.h; sourceTree = "<group>"; };
 		69EE066F29D6C1F500F82BC3 /* DecelerateInterpolator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DecelerateInterpolator.swift; sourceTree = "<group>"; };
 		69EE067029D6C1F500F82BC3 /* AccelerateInterpolator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccelerateInterpolator.swift; sourceTree = "<group>"; };
@@ -64,7 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				69EE066C29D6C1F500F82BC3 /* ColorInterpolator.swift */,
-				69EE066D29D6C1F500F82BC3 /* Interpolator.swift */,
+				69EE066D29D6C1F500F82BC3 /* InterpolatorType.swift */,
 				69EE066E29D6C1F500F82BC3 /* Interpolator.h */,
 				69EE066F29D6C1F500F82BC3 /* DecelerateInterpolator.swift */,
 				69EE067029D6C1F500F82BC3 /* AccelerateInterpolator.swift */,
@@ -160,7 +160,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69EE067229D6C1F500F82BC3 /* Interpolator.swift in Sources */,
+				69EE067229D6C1F500F82BC3 /* InterpolatorType.swift in Sources */,
 				69EE067129D6C1F500F82BC3 /* ColorInterpolator.swift in Sources */,
 				69EE067429D6C1F500F82BC3 /* DecelerateInterpolator.swift in Sources */,
 				69EE067529D6C1F500F82BC3 /* AccelerateInterpolator.swift in Sources */,

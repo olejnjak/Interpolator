@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = 'Interpolator'
-    s.version          = '0.2.0'
+    s.version          = '0.2.1'
     s.summary          = 'Swift implementation of Android interpolators'
     s.description      = <<-DESC
     Interpolator adds interpolators from Android to your Swift apps
